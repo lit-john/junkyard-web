@@ -1,7 +1,7 @@
 {
   "slot": "latest",
-  "published": "2026-10-30 12:28",
-  "source_commit": "cc98bb0",
+  "published": "2026-10-30 12:42",
+  "source_commit": "621bdcf",
   "size_mb": 27.3,
-  "note": "Mouse capture fix: clicking right after Esc now recaptures the mouse about a second later."
+  "note": "After Esc the game shows Paused, then Click to resume about a second later."
 }
