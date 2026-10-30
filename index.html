@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Junkyard prototype</title>
+<style>
+  :root { --bg: #f6f5f2; --fg: #1d1d1b; --muted: #6b6a66; --link: #2d5f8a; --card: #fff; --line: #e2e0da; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #171716; --fg: #ecebe7; --muted: #9b9a95; --link: #8cb8e0; --card: #222220; --line: #33332f; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg);
+         font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 40px 16px; }
+  h1 { font-size: 1.6rem; margin: 0 0 8px; }
+  p { color: var(--muted); margin: 0 0 16px; }
+  ul { list-style: none; padding: 0; margin: 24px 0; }
+  li { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; margin-bottom: 10px; }
+  a { color: var(--link); font-weight: 600; text-decoration: none; font-size: 1.1rem; }
+  a:hover { text-decoration: underline; }
+  .meta { display: block; color: var(--muted); font-size: 0.85rem; }
+  .note { color: var(--fg); margin: 6px 0 0; }
+  h2 { font-size: 1rem; margin: 32px 0 8px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Junkyard prototype</h1>
+  <p>A work-in-progress scrapyard scene built in Blender and Unity. Feedback welcome.</p>
+  <ul>
+    <li>
+      <a href="latest/">Latest build</a>
+      <span class="meta">2026-10-30 11:57 · 27.3 MB · source e0b3d74-dirty</span>
+      <p class="note">First shared build: block-out yard with the photoreal drum, cars, crushed cars, scrap, site cabin and tyres.</p>
+    </li>
+  </ul>
+  <h2>Controls</h2>
+  <p>Desktop browser with a mouse and keyboard (Chrome, Edge or Firefox). Click the game to capture the mouse
+     and look around; WASD to move, Shift to run, Space to jump; Esc releases the mouse. Mouse capture is still
+     rough: if the view stops following the mouse, click outside the game and back in, or reload the page.
+     The first load is about 25&nbsp;MB.</p>
+</main>
+</body>
+</html>
