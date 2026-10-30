@@ -1,7 +1,7 @@
 {
   "slot": "latest",
-  "published": "2026-10-30 12:42",
-  "source_commit": "621bdcf",
+  "published": "2026-10-30 12:43",
+  "source_commit": "621bdcf-dirty",
   "size_mb": 27.3,
   "note": "After Esc the game shows Paused, then Click to resume about a second later."
 }
